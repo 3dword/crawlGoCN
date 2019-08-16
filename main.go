@@ -8,7 +8,6 @@ import (
 func main() {
 
 	githubToken := GetValueFromEnv("GITHUB_TOKEN")
-	githubToken = "0471fc4285b2db726d8fdb85adf0dc80d2c5379c"
 
 	t := time.Tick(time.Hour * 1)
 	isFirst := true
